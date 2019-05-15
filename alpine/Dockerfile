@@ -6,7 +6,7 @@ ARG RF_PIPENV_VERSION=2018.11.26
 # rabbit_force repository URL
 ARG RF_REPO_URL=https://github.com/robertmrk/rabbit_force.git
 # rabbit_force repostiroy branch
-ARG RF_BRANCH_NAME=develop
+ARG RF_BRANCH_NAME=0.1.1
 
 # change the working directory
 WORKDIR /build
